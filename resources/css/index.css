@@ -62,10 +62,24 @@ a {
     margin-top: 70px;
 }
 
-.imgcol {
-    display: flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: auto;
 
+.imgcol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    gap: 20px;
+    row-gap: 40px;
+}
+
+.imgcol p {
+    vertical-align: top;
+    text-align: center;
+    line-height: 1;
+    margin: 0px;
+    padding-top: 10px;
 }
