@@ -83,3 +83,43 @@ a {
     margin: 0px;
     padding-top: 10px;
 }
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    width: 1200px;
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.boxes {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.boxes div {
+    width: 300px;
+    background-color: black;
+    line-height: 150%;
+}
+
+#locations h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    margin-bottom: 15px;
+}
+
+#contact {
+    height: 200px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}
